@@ -6,7 +6,7 @@ logger = logging.getLogger(__name__)
 
 @loader.tds
 class AutoResponderMod(loader.Module):
-    """Автоответчик для Hikka Userbot, отправляет сообщение только в ЛС, если пользователь оффлайн. Настраивается через конфиг."""
+    """Автоответчик для HerokuUserBot"""
     
     strings = {
         "name": "AutoResponder",
