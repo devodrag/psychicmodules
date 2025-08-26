@@ -7,7 +7,7 @@ class MakvinInsult(loader.Module):
     """Модуль для отправки оскорблений с настраиваемой задержкой"""
     
     strings = {
-        "name": "InsultBot",
+        "name": "MakvinInsult",
         "word_added": "✅ Слово <b>{}</b> добавлено в список оскорблений!",
         "word_removed": "✅ Слово <b>{}</b> удалено из списка оскорблений!",
         "word_not_found": "❌ Слово <b>{}</b> не найдено в списке оскорблений!",
