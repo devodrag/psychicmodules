@@ -3,7 +3,7 @@ import asyncio
 from .. import loader, utils
 
 @loader.tds
-class InsultBot(loader.Module):
+class MakvinInsult(loader.Module):
     """Модуль для отправки оскорблений с настраиваемой задержкой"""
     
     strings = {
